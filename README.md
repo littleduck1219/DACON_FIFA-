@@ -3,8 +3,6 @@
 
 주어진 자료를 토대로 선수 이적료를 예측합니다.
 
-작성 코드 : <a href="https://github.com/littleduck1219/DACON_FIFA_Player_Transfer_Fee_Predict/blob/main/FIFA_player_transfer_fee_predict.ipynb">FIFA_player_transfer_fee_predict.ipynb</a>
-
 1. FIFA_train.csv / FIFA_test.csv\
  id : 선수 고유의 아이디\
  name : 이름\
@@ -23,3 +21,8 @@
 2. submission.csv (제출 파일 형식)\
 id : 선수 고유의 아이디\
 value : 예측된 선수 이적 시장 가격을 기입\ 
+
+작성 코드 : <a href="https://github.com/littleduck1219/DACON_FIFA_Player_Transfer_Fee_Predict/blob/main/FIFA_player_transfer_fee_predict.ipynb">FIFA_player_transfer_fee_predict.ipynb</a>
+
+first submission :  
+2022/12/23 DecisionTreeRegressor을 사용하여 predict 함. 순위 460
